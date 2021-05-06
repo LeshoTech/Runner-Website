@@ -1,0 +1,125 @@
+body {
+  padding: 0;
+  margin: 0;
+  letter-spacing: 0.5px;
+  font-family: "montserrat", Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  font-weight: 200;
+}
+
+/** Header */
+
+header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  background-color: rgb(6, 7, 8);
+  margin-bottom: 8%;
+  padding: 40px 20px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+
+nav {
+  align-self: center;
+}
+
+/** Main */
+
+.banner {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  padding: 50px 0;
+  margin: 90px 0;
+  text-transform: capitalize;
+  font-size: 24px;
+  letter-spacing: 3px;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin: 10% 2%;
+  width: 80%;
+  font-size: 18px;
+}
+
+.content h1 {
+  color: black;
+}
+
+.images {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 10% 0;
+}
+
+.images img {
+  width: 30%;
+}
+
+.banner-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: black;
+  padding: 80px 0;
+  color: white;
+  font-size: 28px;
+}
+
+.images-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 10% 0;
+}
+
+.images-2 img {
+  width: 25%;
+}
+
+.images-3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  font-size: 25px;
+  font-weight: lighter;
+}
+
+.images-3 img {
+  width: 25%;
+}
+
+/** footer */
+
+footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  background-color: black;
+  padding: 40px 20px;
+  margin-top: 10%;
+  color: white;
+}
+
+.footer-nav a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
